@@ -1,0 +1,17 @@
+# Site settings
+title: Pages Test 
+#email: hpcc@okstate.edu 
+description: > # this means to ignore newlines until "baseurl:"
+  This is a test
+  to learn the
+  features of github pages
+baseurl: "/pages-test" # the subpath of your site, e.g. /blog/
+#url: "http://evanlinde.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  evanlinde
+
+# Build settings
+markdown: kramdown
+
+# My variable for designating pages that are linked in the header.
+isinheader:
