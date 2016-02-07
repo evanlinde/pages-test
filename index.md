@@ -24,6 +24,20 @@ order by
   cowboy_name desc;
 ```
 
+```shell
+#!/bin/bash
+# This is a comment.
+MYVAR1=something
+MYVAR2="something else"
+cd ~
+touch ${MYVAR1}.txt
+for i in {1..5}; do
+  echo "line $i" >> ${MYVAR1}.txt
+done
+awk '{print $1}' <<< "${MYVAR2}"
+exit 0
+```
+
 Some __double underscores__ and **double asterisks** and \_\_escaped double underscores\_\_ and \*\*escaped double asterisks\*\*.
 
 Some _single underscores_ and *single asterisks* and \_escaped single underscores\_ and \*escaped single asterisks\*.
