@@ -1,3 +1,7 @@
+---
+title: Pages Test
+layout: default
+---
 
 Some inline `code`
 
