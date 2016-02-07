@@ -4,8 +4,10 @@ Some inline `code`
 Generic multiline code
 ```
 cmd1
-cmd2
+*cmd2*
 cmd3
+__cmd4__
+cmd5
 ```
 
 Multiline code with syntax highlighting
