@@ -6,6 +6,7 @@ layout: default
 Some inline `code`
 
 Generic multiline code
+
 ```
 cmd1
 *cmd2*
@@ -15,6 +16,7 @@ cmd5
 ```
 
 Multiline code with syntax highlighting
+
 ```sql
 select distinct
   m.cowboy_user as cowboy_name,
