@@ -68,12 +68,15 @@ PAM Adjustments
 ---------------
 
 #### Create home directories on sudo
+
 Add additional session line to `/etc/pam.d/sudo`:
+
 ```
 session    optional    pam_oddjob_mkhomedir.so umask=0077
 ```
 
 #### Limit authentication to the jupyterhub users group
+
 Edit `/etc/pam.d/system-auth` and `/etc/pam.d/password-auth` adding `require_membership_of=jupyterhub_users` to the end of the lines starting with `auth    sufficient    pam_winbind.so`.
 
 
@@ -106,6 +109,7 @@ Defaults:jupyterhub !requiretty
 ```
 
 Set permissions on the file:
+
 ```
 chmod 0440 /etc/sudoers.d/jupyterhub
 ```
